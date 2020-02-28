@@ -101,3 +101,27 @@ div {
 .left.bottom, .right.bottom {
 	bottom: 10px;
 }
+
+/* Seconds */
+.second .bar {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.second .center {
+	height: 10px;
+	width: 40px;
+	left: 11px;
+}
+.second .center.middle {
+	top: 50px;
+}
+.second .left, .second .right {
+	width: 10px;
+	height: 50px;
+}
+.second .left.top, .second .right.top {
+	top: 5px;
+}
+.second .left.bottom, .second .right.bottom {
+	bottom: 5px;
+}
