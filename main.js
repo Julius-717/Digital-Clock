@@ -22,4 +22,7 @@ $(function() {
     setInterval(updateTime, 1000);
 
     clock.on('mousemove click', brighten);
+
+    $('.controls .dot').click(function() { SetTheme(this.name); });
+    $('.controls .hours').click(function() { setHours(this.name); });
 })
