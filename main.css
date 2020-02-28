@@ -385,10 +385,7 @@ a:visited {
   text-shadow: 0 0 20px rgb(200, 20, 0);
 }
 
-/* 
- * White
- * Uses font-based digits
- */
+
 @font-face {
   font-family: "BankGothicMdBTMedium";
   src: url("fonts/bankgthd-webfont.eot");
