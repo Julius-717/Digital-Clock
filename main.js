@@ -13,4 +13,7 @@ $(function() {
     dimTime = 10 * 1000;
     store = ('localStorage' in window) && window['localStorage'] !== null ? window.localStorage : null;
     fl = Math.floor;
+
+    SetTheme(getPref('theme', 'green'));
+    setHours(getPref('hr', 12));
 })
