@@ -1,100 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+(c) copyright 2010, Brian Cavalier
 
+LICENSE: see the LICENSE.txt file. If file is missing, this file is subject to the MIT
+License at the following url: http://www.opensource.org/licenses/mit-license.php.
+-->
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Clock</title>
-    <script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <link rel="stylesheet" type="text/css" href="main.css" media="screen">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=900">
+	<title>CSS3 Digital Clock</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="clock.js"></script>
+	<link rel="stylesheet" type="text/css" href="base.css" media="screen">
 </head>
-
 <body>
-    <div class="clock">
-        <div class="overlay">
-            <div class="display">
-                <div class="display-area digit">
-                    <div class="element bar center top"></div>
-                    <div class="element bar center middle"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                </div>
-                <div class="display-area digit">
-                    <div class="element bar center top"></div>
-                    <div class="element bar center middle"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                </div>
-                <div class="display-area sep colon">
-                    <div class="element bar top"></div>
-                    <div class="element bar bottom"></div>
-                </div>
-                <div class="display-area digit">
-                    <div class="element bar center top"></div>
-                    <div class="element bar center middle"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                </div>
-                <div class="display-area digit">
-                    <div class="element bar center top"></div>
-                    <div class="element bar center middle"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                </div>
-                <div class="display-area second digit">
-                    <div class="element bar center top"></div>
-                    <div class="element bar center middle"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                </div>
-                <div class="display-area second digit">
-                    <div class="element bar center top"></div>
-                    <div class="element bar center middle"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                    <div class="element bar center top"></div>
-                    <div class="element bar center bottom"></div>
-                </div>
-                <div class="display-area text ampm">
-                    <p class="element am">AM</p>
-                    <p class="element pm">PM</p>
-                </div>
-            </div>
-            <div class="controls">
-                <a class="theme element dot green on" name="green" title="Green"></a>
-                <a class="theme element dot blue" name="blue" title="Blue"></a>
-                <a class="theme element dot red" name="red" title="Red"></a>
-                <a class="theme element dot white" name="white" title="White"></a>
-            </div>
-            <div class="control">
-                <a class="element text hours hr12" name="12" title="12-hour clock">12</a>
-                <a class="element text hours hr24" name="24" title="24-hour clock">24</a>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <p class="text copyright">Copyright &copy; 2020 <a href="https://github.com/Julius-717/Digital-Clock"
-                title="Digital Clock">Kash</a> &mdash; MIT License</p>
-        <p class="text font-ref"><a href="http://www.font-zone.com/download.php?fid=111">Bank Gothic Font</a> required
-        </p>
-    </footer>
+	<div class="clock">
+		<div class="overlay"></div>
+		<div class="display">
+			<div class="display-area digit">
+				<div class="element bar center top"></div>
+				<div class="element bar center middle"></div>
+				<div class="element bar center bottom"></div>
+				<div class="element bar left top"></div>
+				<div class="element bar left bottom"></div>
+				<div class="element bar right top"></div>
+				<div class="element bar right bottom"></div>
+			</div>
+			<div class="display-area digit">
+				<div class="element bar center top"></div>
+				<div class="element bar center middle"></div>
+				<div class="element bar center bottom"></div>
+				<div class="element bar left top"></div>
+				<div class="element bar left bottom"></div>
+				<div class="element bar right top"></div>
+				<div class="element bar right bottom"></div>
+			</div>
+			<div class="display-area sep colon">
+				<div class="element bar top"></div>
+				<div class="element bar bottom"></div>
+			</div>
+			<div class="display-area digit">
+				<div class="element bar center top"></div>
+				<div class="element bar center middle"></div>
+				<div class="element bar center bottom"></div>
+				<div class="element bar left top"></div>
+				<div class="element bar left bottom"></div>
+				<div class="element bar right top"></div>
+				<div class="element bar right bottom"></div>
+			</div>
+			<div class="display-area digit">
+				<div class="element bar center top"></div>
+				<div class="element bar center middle"></div>
+				<div class="element bar center bottom"></div>
+				<div class="element bar left top"></div>
+				<div class="element bar left bottom"></div>
+				<div class="element bar right top"></div>
+				<div class="element bar right bottom"></div>
+			</div>
+			<div class="display-area second digit">
+				<div class="element bar center top"></div>
+				<div class="element bar center middle"></div>
+				<div class="element bar center bottom"></div>
+				<div class="element bar left top"></div>
+				<div class="element bar left bottom"></div>
+				<div class="element bar right top"></div>
+				<div class="element bar right bottom"></div>
+			</div>
+			<div class="display-area second digit">
+				<div class="element bar center top"></div>
+				<div class="element bar center middle"></div>
+				<div class="element bar center bottom"></div>
+				<div class="element bar left top"></div>
+				<div class="element bar left bottom"></div>
+				<div class="element bar right top"></div>
+				<div class="element bar right bottom"></div>
+			</div>
+			<div class="display-area text ampm">
+				<p class="element am">AM</p>
+				<p class="element pm">PM</p>
+			</div>
+		</div>
+		<div class="controls">
+			<a class="theme element dot green on" name="green" title="Green"></a>
+			<a class="theme element dot blue" name="blue" title="Blue"></a>
+			<a class="theme element dot red" name="red" title="Red"></a>
+			<a class="theme element dot white" name="white" title="White Font"></a>
+		</div>
+		<div class="controls">
+			<a class="element text hours hr12" name="12" title="12-hour clock">12</a>
+			<a class="element text hours hr24" name="24" title="24-hour clock">24</a>
+		</div>
+	</div>
+	<footer>
+		<p class="text copyright">Copyright &copy; 2020 <a href="http://github.com/Julius-717/Digital-Clock" title="Digital Clock">KASH</a> &mdash; MIT License</p>
+		<p class="text font-ref"><a href="http://www.font-zone.com/download.php?fid=111">Bank Gothic Font</a> required</p>
+	</footer>
 </body>
-
 </html>
