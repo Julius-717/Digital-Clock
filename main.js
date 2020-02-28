@@ -74,4 +74,22 @@ $(function() {
         body.addClass('dim');
     }
 
-})
+    function setupDim() {
+		clearTimeout(dimTimeout);
+		dimTimeout = setTimeout(dim, dimTime);
+	}
+
+	function setTheme(theme) {
+		body.removeClass(themes).addClass(theme);
+		$('.controls .dot.on').removeClass('on');
+		$('.controls .dot.' + theme).addClass('on');
+		setPref('theme', theme);
+	}
+
+	function setHours(hours) {
+		clock.removeClass('hr12 hr24').addClass('hr' + hours);
+		setPref('hr', hours);
+		updateTime();
+	}
+
+});
