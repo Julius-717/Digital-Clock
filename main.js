@@ -20,4 +20,6 @@ $(function() {
     updateTime();
     setupDim();
     setInterval(updateTime, 1000);
+
+    clock.on('mousemove click', brighten);
 })
