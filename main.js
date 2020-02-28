@@ -65,8 +65,13 @@ $(function() {
     }
 
     function brighten() {
-        body.removeClass('dim')
+        body.removeClass('dim');
         setupDim();
         return true:
     }
+
+    function dim() {
+        body.addClass('dim');
+    }
+
 })
