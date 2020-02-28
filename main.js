@@ -25,4 +25,9 @@ $(function() {
 
     $('.controls .dot').click(function() { SetTheme(this.name); });
     $('.controls .hours').click(function() { setHours(this.name); });
+
+    function getPref(name, defaultVal) {
+        return store ? (store.getItem(name) || defaultVal) : defaultVal; 
+    }
+    
 })
