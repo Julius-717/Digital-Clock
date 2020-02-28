@@ -33,3 +33,7 @@ div {
 .dim .clock {
     opacity: .5;
 }
+
+.dim footer, .dim .controls {
+    opacity: 0;
+}
