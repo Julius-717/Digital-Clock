@@ -30,4 +30,7 @@ $(function() {
         return store ? (store.getItem(name) || defaultVal) : defaultVal; 
     }
     
+    function setPref(name, value) {
+        if(store) store.setItem(name, value);
+    }
 })
