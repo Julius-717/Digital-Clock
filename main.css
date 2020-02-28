@@ -60,3 +60,44 @@ div {
 	height: 111px;
 	width: 62px;
 }
+
+.bar {
+	background-color: #0f0;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	position: absolute;
+	-webkit-box-shadow: 0 0 20px #0f0;
+	-moz-box-shadow: 0 0 20px #0f0;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+}
+.center {
+	left: 22px;
+	height: 20px;
+	width: 80px;
+}
+.center.top {
+	top: 0;
+}
+.center.middle {
+	top: 100px;
+}
+.center.bottom {
+	bottom: 0px;
+}
+.left, .right {
+	width: 20px;
+	height: 100px;
+}
+.left {
+	left: 0;
+}
+.right {
+	right: 0;
+}
+.left.top, .right.top {
+	top: 10px;
+}
+.left.bottom, .right.bottom {
+	bottom: 10px;
+}
