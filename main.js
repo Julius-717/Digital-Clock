@@ -16,4 +16,8 @@ $(function() {
 
     SetTheme(getPref('theme', 'green'));
     setHours(getPref('hr', 12));
+
+    updateTime();
+    setupDim();
+    setInterval(updateTime, 1000);
 })
