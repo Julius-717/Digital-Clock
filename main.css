@@ -44,3 +44,19 @@ div {
     margin: 0 15px 15px 0;
     position: relative;
 }
+
+.element {
+	opacity: .1;
+}
+.on {
+	opacity: .9 !important;
+}
+.digit
+{
+	width: 124px;
+}
+.second {
+	margin-top: 111px;
+	height: 111px;
+	width: 62px;
+}
