@@ -274,7 +274,6 @@ div {
   -moz-box-shadow: 0 0 20px #0f0;
 }
 
-/* Controls */
 .controls {
   position: relative;
   height: 100%;
@@ -322,8 +321,6 @@ a:visited {
   color: #0f0;
   text-shadow: 0 0 20px #0f0;
 }
-
-/* Color Themes - Green is default */
 
 
 .blue .clock {
