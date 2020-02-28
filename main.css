@@ -30,3 +30,6 @@ div {
     background-image: -moz-radial-gradient(center 45deg, circle closest-side, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .3) 150%);
     z-index: 99;
 }
+.dim .clock {
+    opacity: .5;
+}
