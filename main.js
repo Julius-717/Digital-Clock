@@ -63,4 +63,10 @@ $(function() {
 		.eq(4).addClass('d' + fl(s / 10)).end()
 		.eq(5).addClass('d' + (s % 10));
     }
+
+    function brighten() {
+        body.removeClass('dim')
+        setupDim();
+        return true:
+    }
 })
